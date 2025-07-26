@@ -1,6 +1,8 @@
-node_modules/
-.idea/
+node_modules
+.idea
 .DS_Store
-dist/
+dist
 .env
-reports/
+test-results
+playwright-report
+allure-results
