@@ -2,7 +2,7 @@ import { test } from "@playwright/test";
 import { trackNames } from "../src/testData"
 import { CreatePlaylistPage } from "../src/pages";
 
-test.describe("Check Search Functionality", () => {
+test.describe("Check Playlist Functionality", () => {
     let createPlaylistPage: CreatePlaylistPage;
 
     test.beforeEach(async ({page}) => {
